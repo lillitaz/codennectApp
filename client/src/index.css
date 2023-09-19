@@ -3,8 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: rgba(13, 49, 47, 0.87);
-  background-color: #d9f3eb;
+  color: #285d5fde;
+  background-color: #d9edf3;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,19 +15,11 @@
 
 a {
   font-weight: 500;
-  color: #12143a;
+  color: #122d3a;
   text-decoration: inherit;
 }
 a:hover {
-  color: #53f2e5;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  color: #a8bff1;
 }
 
 h1 {

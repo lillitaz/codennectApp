@@ -8,9 +8,6 @@ function App() {
     <>
         <header className="App-header"/>
             <img src={codennectLogo} className="codennect-logo" alt="logo" />
-            <p>
-                Codennect
-            </p>
         </>
   )
 }
