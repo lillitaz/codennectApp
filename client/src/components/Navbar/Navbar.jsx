@@ -125,7 +125,7 @@ export default function Navbar() {
             fontFamily: 'Inter, system-ui, Avenir, Helvetica, Arial, sans-serif'
         } }}
           >
-            Codennect
+             .codennect
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex', color:'#d9edf3' } }}>
