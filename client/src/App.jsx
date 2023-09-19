@@ -1,4 +1,4 @@
-import codennectLogo from './assets/dockerizer-logo.png'
+import codennectLogo from './assets/logo.png'
 
 import './App.css'
 
