@@ -1,5 +1,8 @@
 package com.lillitaz.codennect.model;
 
+import lombok.Getter;
+
+@Getter
 public class UserLoginRequest {
 
     private String userName;
