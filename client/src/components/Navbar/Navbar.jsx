@@ -113,22 +113,22 @@ export default function Navbar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-<AppBar position="static" sx={{ backgroundColor: '#285d5fde'}}>
+<AppBar position="static" sx={{ backgroundColor: '#09AAA1'}}>
         <Toolbar>
-        <img src={codennectLogo} className="codennect-logo" alt="logo" style={{height:40, width:40}}/>
-
+        <img src={codennectLogo}         
+        className="codennect-logo" alt="logo" style={{height:40, width:40}}/>
           <Typography
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: 'none', sm: 'block', color: '#d9edf3', 
+            sx={{ display: { xs: 'none', sm: 'block', color: '#ffffff', 
             fontFamily: 'Inter, system-ui, Avenir, Helvetica, Arial, sans-serif'
         } }}
           >
              .codennect
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
-          <Box sx={{ display: { xs: 'none', md: 'flex', color:'#d9edf3' } }}>
+          <Box sx={{ display: { xs: 'none', md: 'flex', color:'#c6fff5' } }}>
             <IconButton size="large" aria-label="show 4 new mails" color="inherit">
               <Badge badgeContent={0} color="error">
                 <MailIcon />

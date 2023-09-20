@@ -3,8 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: #285d5fde;
-  background-color: #ffffff;
+  color: #09AAA1;
+  background-color: #c6fff5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,7 +23,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #a8bff1;
+  color: #e3f8f7;
 }
 
 h1 {
