@@ -33,12 +33,12 @@ public class SecurityConfiguration {
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests((request) -> request
                         //here you can permit all the requests you want, any other request will be authenticated, in the end only the login and signup will be permitted?
-                                .requestMatchers("/h2-console/**").permitAll()
-                                .requestMatchers(HttpMethod.POST, "/api/user/**").permitAll()
+                        .requestMatchers("/h2-console/**").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/api/user/**").permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/server/**").permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/user/allUsers").permitAll()
-                        //.anyRequest().authenticated()
-                        )
+                        .anyRequest().authenticated()
+                )
                 .httpBasic(withDefaults())
                 .build();
     }
