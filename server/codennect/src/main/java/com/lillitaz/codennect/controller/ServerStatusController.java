@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/healthCheck")
+@RequestMapping("api/server")
 public class ServerStatusController {
 
-    @RequestMapping("/status")
+    @RequestMapping("/healthCheck")
     public String status() {
         return "Server is up and running";
     }
