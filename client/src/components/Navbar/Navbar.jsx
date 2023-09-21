@@ -54,8 +54,26 @@ export default function Navbar() {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem onClick={handleMenuClose}>Settings</MenuItem>
-      <MenuItem onClick={handleMenuClose}>Logout</MenuItem>
+       <MenuItem onClick={handleMenuClose}>
+      <a href='/dashboard'>
+        Dashboard
+        </a>
+        </MenuItem>
+      <MenuItem onClick={handleMenuClose}>
+      <a href="/settings">
+        Settings
+      </a>
+        </MenuItem>
+        <MenuItem onClick={handleMenuClose}>
+      <a href="/help">
+        Help
+      </a>
+        </MenuItem>
+        <MenuItem onClick={handleMenuClose}>
+      <a href='/logout'>
+        Logout
+        </a>
+        </MenuItem>
     </Menu>
   );
 
@@ -125,7 +143,9 @@ export default function Navbar() {
             fontFamily: 'Inter, system-ui, Avenir, Helvetica, Arial, sans-serif'
         } }}
           >
+        <a href='/'>
              .codennect
+             </a>
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex', color:'#c6fff5' } }}>
