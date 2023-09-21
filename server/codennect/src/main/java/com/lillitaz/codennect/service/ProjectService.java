@@ -2,7 +2,6 @@ package com.lillitaz.codennect.service;
 
 import com.lillitaz.codennect.model.Project;
 import com.lillitaz.codennect.model.User;
-import com.lillitaz.codennect.model.UserUpdateRequest;
 import com.lillitaz.codennect.repository.ProjectRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
