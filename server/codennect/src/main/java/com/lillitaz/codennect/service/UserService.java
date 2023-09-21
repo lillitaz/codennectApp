@@ -18,7 +18,6 @@ public class UserService {
 
     private final PasswordEncoder passwordEncoder;
 
-
     @Autowired
     public UserService(UserRepository userRepository, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
@@ -140,6 +139,10 @@ public class UserService {
     public void deleteUser(Long userId) {
         User user = findUserById(userId);
         userRepository.delete(user);
+    }
+
+    public void updateUser(User owner) {
+        userRepository.save(owner);
     }
 }
 
